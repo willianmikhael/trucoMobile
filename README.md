@@ -1,16 +1,26 @@
-# trucomobile
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A new Flutter project.
+# TrucoMobile
 
-## Getting Started
+24/04/2024
 
-This project is a starting point for a Flutter application.
+Este projeto foi desenvolvido para uma trabalho universitário na disciplina de **Desenvolvimento de Dispositivos Móveis**.
 
-A few resources to get you started if this is your first Flutter project:
+Ministrado pelo professor:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Rodrigo Gregori Habib](https://www.linkedin.com/in/rodrigo-gregori/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Desenvolvido por:
+
+- [Willian Mikhael da Cunha](https://www.linkedin.com/in/willianmikhael/)
+- [Vitor do Nascimento](https://www.linkedin.com/in/vitor-do-nascimento-126b73253/)
+- [Luciano Preis](https://www.linkedin.com/in/luciano-preis-069b3a19b/)
+- [Guilherme Machado]()
+
+
+### Documentação
+
+- [Regras de Negócio](https://drive.google.com/file/d/13zkg32jA1WFhSxgHXKlqNQ8zDUSdr5ho/view?usp=sharing)
+
+- [Diagramas de Classes](https://drive.google.com/file/d/13zkg32jA1WFhSxgHXKlqNQ8zDUSdr5ho/view?usp=sharing)
