@@ -57,14 +57,28 @@ class Card {
       manilhaMultiplier = 40;
     }
 
-    int manilhaValue = mapValorCartaTrucado[ValorCarta.dama]!;
+
+    int manilhaValue = mapValorCartaTrucado[valor]!;
     manilhaValue += manilhaMultiplier;
-    mapValorCartaTrucado[ValorCarta.dama] = manilhaValue;
+    mapValorCartaTrucado[valor] = manilhaValue;
 
     // Print para verificar os valores atualizados
     mapValorCartaTrucado.forEach((key, value) {
       print('$key: $value');
     });
   }
+}
+
+void main() {
+  for (var naipe in Naipe.values) {
+    var cartas = Card.criarCartasPorNaipe(naipe);
+    print('Cartas do naipe $naipe:');
+    for (var carta in cartas) {
+      print('${carta.valor} de ${carta.naipe}');
+    }
+    print('');
+  }
+
+  Card.checkWinner(ValorCarta.tres, Naipe.copas);
 }
 
